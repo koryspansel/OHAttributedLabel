@@ -1,14 +1,33 @@
-# xcode noise
-build/
-*~.nib/
-*.pbxuser
-*.perspective
-*.perspectivev3
-*.mode1v3
-*.mode2v3
-
-# old school
-.svn
-
-# osx noise
 .DS_Store
+
+# Xcode files
+*.xcbkptlist
+*.xcworkspacedata
+*.xcscheme
+*.xccheckout
+*.xcuserstate
+*.xcuserdatad
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.d
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.hex
+*.elf
